@@ -7,7 +7,7 @@ class Item extends Component {
     constructor(props) {
         super(props);
         this.state = {count: 0}
-        this.divergence = props.TimeZone * 60;
+        this.divergence = props.timeZone * 60;
 
         this.upd = () => {
             this.setState({count: this.state.count + 1})
